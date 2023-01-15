@@ -1,5 +1,7 @@
 import streamlit as st
 import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
 from nltk import sent_tokenize, word_tokenize, PorterStemmer
 from nltk.corpus import stopwords
 
